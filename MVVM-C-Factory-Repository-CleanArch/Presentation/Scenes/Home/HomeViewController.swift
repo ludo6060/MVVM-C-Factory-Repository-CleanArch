@@ -106,7 +106,6 @@ extension HomeViewController: UITableViewDataSource, UITableViewDelegate {
             cell.accessoryType = .disclosureIndicator
             cell.backgroundColor = .darkGray
         }
-        
         return cell
     }
     

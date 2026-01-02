@@ -12,7 +12,6 @@ enum HomeAPI: Endpoint {
     case getPosts
     case getPostDetail(id: Int)
     
-    
     var path: String {
         switch self {
         case .getPosts:
