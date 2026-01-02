@@ -7,11 +7,55 @@
 
 import Foundation
 
+enum HomeViewState {
+    case loading
+    case success
+    case failure(String)
+}
+
 @MainActor
 final class HomeViewModel: HomeViewModelProtocol {
     weak var navigationDelegate: HomeNavigationDelegate?
+    weak var viewDelegate: HomeViewModelDelegate?
+    
+    private let repository: HomeRepositoryProtocol
+    private var posts = [PostResponse]()
+    
+    init(repository: HomeRepositoryProtocol) {
+        self.repository = repository
+    }
     
     func viewDidLoad() {
-        print("HomeViewModel: loaded.")
+        fetchData()
+    }
+    
+    func numberOfItems() -> Int {
+        return posts.count
+    }
+    
+    func item(at index: Int) -> PostResponse? {
+        guard index < posts.count else {
+            return nil
+        }
+        return posts[index]
+    }
+}
+
+// MARK: -
+extension HomeViewModel {
+    private func fetchData() {
+        viewDelegate?.handleViewModelOutput(state: .loading)
+        
+        Task {
+            let result = await repository.getPosts()
+            
+            switch result {
+            case .success(let response):
+                self.posts = response
+                viewDelegate?.handleViewModelOutput(state: .success)
+            case .failure(let failure):
+                viewDelegate?.handleViewModelOutput(state: .failure(failure.localizedDescription))
+            }
+        }
     }
 }

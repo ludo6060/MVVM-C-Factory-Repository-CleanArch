@@ -13,7 +13,17 @@ protocol HomeNavigationDelegate: AnyObject {
 }
 
 @MainActor
+protocol HomeViewModelDelegate: AnyObject {
+    func handleViewModelOutput(state: HomeViewState)
+}
+
+@MainActor
 protocol HomeViewModelProtocol: AnyObject {
     var navigationDelegate: HomeNavigationDelegate? { get set }
+    var viewDelegate: HomeViewModelDelegate? { get set }
+    
+    func numberOfItems() -> Int
+    func item(at index: Int) -> PostResponse?
+    
     func viewDidLoad()
 }
