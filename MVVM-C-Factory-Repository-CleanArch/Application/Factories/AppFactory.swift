@@ -17,6 +17,9 @@ final class AppFactory: AppFactoryProtocol {
     init() { }
     
     func makeHomeViewController(coordinator: HomeNavigationDelegate) -> UIViewController {
-       // Later..
+        let viewModel = HomeViewModel()
+        viewModel.navigationDelegate = coordinator
+        let controller = HomeViewController(viewModel: viewModel)
+        return controller
     }
 }

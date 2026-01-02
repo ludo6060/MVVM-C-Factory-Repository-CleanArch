@@ -9,11 +9,11 @@ import Foundation
 
 @MainActor
 protocol HomeNavigationDelegate: AnyObject {
-    // Navigation..
+    //  navigateToDetail
 }
 
 @MainActor
 protocol HomeViewModelProtocol: AnyObject {
-    var navigationDelegate: HomeNavigationDelegate { get }
-    func viewDidload()
+    var navigationDelegate: HomeNavigationDelegate? { get set }
+    func viewDidLoad()
 }
